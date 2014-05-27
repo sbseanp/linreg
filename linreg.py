@@ -69,6 +69,6 @@ def test_classifier(filename, w):
 if __name__ == '__main__':
     if len(argv) == 3:
         temp = train_classifier(argv[1])
-        temp2 = test_classifier(argv[2], temp)
+        test_classifier(argv[2], temp)
     else: 
         print('Please input the training file and the test file')
