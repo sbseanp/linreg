@@ -7,8 +7,6 @@ Created on May 25, 2014
 from sys import argv
 import numpy as np
 
-#sys.stdout = open("HW3-2-output2.txt", 'w')
-
 '''return w and t'''
 def train_classifier(filename):
     train_file = open(filename)
